@@ -17,7 +17,7 @@
         <div class="container">
         <!-- menampilkan daetail produk -->
         <div class="col-md-6 product-detail col-md-push-1 well">
-            <h2 style="margin-top:0px;"><?php echo $produk_data['nama_produk'] ?></h1>
+            <h2 style="margin-top:0px; color:  #118748; font-family: roboto;"><?php echo $produk_data['nama_produk'] ?></h1>
             <div class="row">
                 <div class="col-md-5">
                     <img class="img-det-produk" src="<?php echo $produk_data['gambar_produk']; ?>" />

@@ -1,6 +1,13 @@
-.filter, .list-produk, .form-login, .btn-login, .produk-detail {
+.filter, .list-produk,  .btn-login, .produk-detail {
     margin-top: 20px;
 }
+.form-login{
+    margin-top: 20px;
+    font-family: roboto;
+    text-align: center;
+    font-size: 15px;
+}
+
 .filter {
     margin-left: 30px;
 }
