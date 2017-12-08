@@ -16,20 +16,6 @@
     <div class="container">
     <body>
 
-
-
-            <!-- form pencarian -->
-            <div class="row">
-                <div class="col-md-4 col-md-push-4">
-                        <form method="get" class="input-group">
-                            <input type="text" class="form-control" placeholder="Cari produk..." name="katakunci">
-                            <span class="input-group-btn">
-                                <button class="btn btn-default" type="submit" name="cari">Go!</button>
-                            </span>
-                        </form>
-                </div>
-            </div>
-
             <!-- pilihan untuk melakukan filter -->
             <div class="row">
                 <div class="dropdown filter">
