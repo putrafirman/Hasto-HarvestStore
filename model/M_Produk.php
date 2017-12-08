@@ -6,7 +6,7 @@ class M_Produk{
 
     //inisialisasi awal untuk class biasa disebut instansiasi
     function __construct(){
-        $this->db = new PDO('mysql:host=localhost;dbname=hasto;', 'root', '');
+        $this->db = new PDO('mysql:host=localhost;dbname=hasto;', 'root', 'toor');
     }
 
     //fungsi untuk mendapatkan list produk yang akan ditampilkan pada v_list_produk_user

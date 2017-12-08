@@ -5,7 +5,7 @@ class M_Toko{
     public $db;
 
     function __construct(){
-        $this->db = new PDO('mysql:host=localhost;dbname=hasto;', 'root', '');
+        $this->db = new PDO('mysql:host=localhost;dbname=hasto;', 'root', 'toor');
     }
 
     function getNamatoko($id_user){

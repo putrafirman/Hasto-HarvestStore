@@ -18,8 +18,8 @@
     <body>
 
         <!-- menampilkan nama user -->
-        <h1 class="filter">Selamat Datang, <?php echo $username; ?></h1>
-        <h2 class="filter">Daftar Toko <a class="btn btn-default" href="index.php?tambah_toko" role="button"><i class="glyphicon glyphicon-plus"></i></a></h2>
+        <h1 class="filter">Selamat Datang, <?php echo $username; ?> Daftar Toko <a class="btn btn-default" href="index.php?tambah_toko" role="button"><i class="glyphicon glyphicon-plus"></i></a></h1>
+        
 
         <div class="col-md-12">
             <!-- menampilkan daftar toko -->

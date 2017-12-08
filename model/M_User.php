@@ -5,7 +5,7 @@ class M_User{
     public $db;
 
     function __construct(){
-        $this->db = new PDO('mysql:host=localhost;dbname=hasto;', 'root', '');
+        $this->db = new PDO('mysql:host=localhost;dbname=hasto;', 'root', 'toor');
     }
 
     function login($username, $password){
