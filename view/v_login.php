@@ -15,12 +15,12 @@
         <!-- form login -->
         <div class="col-sm-4 well col-sm-push-4 login">
             <div>
-                <h2 style="text-align:center;"><a href="../index.php">Harvest Store</a></h2>
+                <h3 style="text-align:center;"><a href="../index.php">Harvest Store</a></h3>
             </div>
             <form action="" method="POST" class="col-sm-10 col-sm-push-1">
                 <div class="form-login">
                     <label>username</label>
-                    <input type="text" class="form-control" name="username"  placeholder="username" required>
+                    <input type="text" class="form-control" name="username"  placeholder="username" required autofocus>
                 </div>
                 <div class="form-login">
                     <label>password</label>
